@@ -1,11 +1,15 @@
+from vk_api import VkApi
 from vk_api.longpoll import VkLongPoll, VkEventType
-import vk_api
+
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
 vk_token = os.getenv('VK_TOKEN')
+
+# Авторизуемся как сообщество
+vk_session = VkApi(token=vk_token)
 
 # Инициализируем работу с longpoll
 longpoll = VkLongPoll(vk_session)
