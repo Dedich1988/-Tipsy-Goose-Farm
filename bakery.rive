@@ -1,0 +1,22 @@
+! version = 2.0
+
++ hi
+- Hello! How can I assist you today?
+
++ order cake
+- Sure, we have a variety of delicious cakes available. What flavor would you like?
+
++ flavor *
+- Great choice! Would you like any specific decorations or customizations for your cake?
+
++ decorations *
+- Noted! We will include the requested decorations on your cake. Please provide your contact information for delivery.
+
++ contact info *
+- Thank you for providing your contact information. Your cake order has been placed. We will get in touch with you soon for further details.
+
++ goodbye
+- Goodbye! Have a great day!
+
++ *
+- I'm sorry, I didn't understand. Can you please rephrase your request?
